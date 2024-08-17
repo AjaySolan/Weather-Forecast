@@ -131,7 +131,7 @@ li img{
 .weather-cards{
     display: flex;
     gap: 20px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background: skyblue;
     height: 100%;
     border-radius: 10px;
@@ -143,7 +143,6 @@ li img{
     color: white;
     padding: 18px 16px;
     border-radius: 5px;
-    width: calc(100% / 5); 
 }
 
 .weather-cards .card img{
@@ -171,7 +170,7 @@ li img{
     }
 
     .card{
-        width: calc(100% / 4 -15px);
+        width: calc(100% / 4  -15px);
     }
 }
 
