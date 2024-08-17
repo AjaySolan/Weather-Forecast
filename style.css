@@ -190,6 +190,10 @@ li img{
 }
 
 @media(max-width: 750px){
+    h1{
+        padding: 18px 10px;
+    }
+
     .container{
         flex-wrap: wrap;
         padding: 15px;
