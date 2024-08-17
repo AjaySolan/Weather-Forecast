@@ -9,15 +9,14 @@
 }
 
 body{
-    background: white;
+    background: skyblue;
 }
 
 h1{
     color: white;
-    padding: 18px 0;
-    text-align: center;
+    padding: 18px 30px;
     font-size: 1.75rem;
-    background: #000;
+    font-style: italic;
 }
 
 .container{
@@ -47,7 +46,7 @@ h1{
     cursor: pointer;
     outline: none;
     border: none;
-    background-color: blue;
+    background-color: rgb(32, 171, 240);
     border-radius: 4px;
     font-size: 1rem;
 }
@@ -67,12 +66,12 @@ h1{
     color: black;
     font-size: 1.18rem;
     padding: 0 15px;
-    background: white;
+    background: skyblue;
     margin-top: -4px;
 }
 
 .weather-input .location-btn{
-    background-color: gray;
+    background-color: rgb(63, 151, 145);
 }
 
 .weather-data{
@@ -81,10 +80,11 @@ h1{
 
 .current-weather{
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px 70px 20px 20px;
-    background-color: blue;
+    background-color: skyblue;
     display: flex;
+    border: white 3px solid;
     justify-content:space-between;
 }
 
@@ -120,30 +120,46 @@ li img{
     text-transform: capitalize;
 }
 
-.days-forecast-h2{
-    font-size: 1.5rem;
+.days-forecast h2{
+    font-size:25px;
     margin: 20px 0;
+    font-weight: 700;
+    text-align: center;
+    color: white;
 }
 
 .weather-cards{
     display: flex;
     gap: 20px;
+    justify-content: space-around;
+    background: skyblue;
+    height: 100%;
+    border-radius: 10px;
+    border: white 3px solid;
 }
 
-.weather-cards .cards{
+.weather-cards .card{
     list-style: none;
     color: white;
     padding: 18px 16px;
-    background: grey;
     border-radius: 5px;
     width: calc(100% / 5); 
 }
 
-.weather-cards .cards img{
-    max-width: 70px;
+.weather-cards .card img{
+    max-width: 40px;
     margin: 5px 0 -12px 0;
 }
 
+.days-forecast{
+    margin-top: 40px;
+}
+
+.note{
+    margin-top: 15px;
+    font-size: 13px;
+    color: red;
+}
 
 @media (max-width: 1400px){
     .weather-data .current-weather{
@@ -183,3 +199,4 @@ li img{
         width: 100%;
     }
 }
+
